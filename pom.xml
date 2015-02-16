@@ -26,9 +26,6 @@
   	<module>../nim-base</module>
   	<module>../nim-data</module>
   	<module>../nim-plateform</module>
-  	<module>../nim-esb</module>
-  	<module>../nim-auth</module>
-  	<module>../nim-designer</module>
   </modules>
   
   <build>  
