@@ -4,7 +4,7 @@
 
   <groupId>com.poweruniverse</groupId>
   <artifactId>nim</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
 
   <name>nim</name>
@@ -13,7 +13,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+	<!--  发布到公司服务器-->
+	<distributionManagement>
+	  <repository>
+	    <id>lysoft</id>
+	    <url>http://192.168.1.2:8081/nexus/content/repositories/lysoft</url>
+	  </repository>
+	</distributionManagement>
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -26,6 +33,12 @@
   	<module>../nim-base</module>
   	<module>../nim-data</module>
   	<module>../nim-plateform</module>
+   	<module>../nim-data-wsclient</module>
+  	<module>../nim-plateform-wsclient</module>
+  	<module>../oim-xny-wsclient</module>
+  	<module>../oim-hdzg-wsclient</module>
+  	<module>../oim-hdgc-wsclient</module>
+ 	<module>../app-trans-wsclient</module>
   </modules>
   
   <build>  
