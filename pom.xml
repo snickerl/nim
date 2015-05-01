@@ -17,7 +17,7 @@
 	<distributionManagement>
 	  <repository>
 	    <id>lysoft</id>
-	    <url>http://192.168.1.2:8081/nexus/content/repositories/lysoft</url>
+	    <url>http://code.liyusoft.com.cn:8081/nexus/content/repositories/lysoft</url>
 	  </repository>
 	</distributionManagement>
 	
@@ -39,6 +39,9 @@
   	<module>../oim-hdzg-wsclient</module>
   	<module>../oim-hdgc-wsclient</module>
  	<module>../app-trans-wsclient</module>
+ 	<module>../app-doc-wsclient</module>
+ 	<module>../app-message-wsclient</module>
+ 	<module>../app-sso-wsclient</module>
   </modules>
   
   <build>  
